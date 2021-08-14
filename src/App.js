@@ -1,25 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import React, {useState} from 'react'
+import { BusquedaInput } from './Components/BusquedaInput'
+import { CountryWeather } from './Components/CountryWeather'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+
+
+export const App = () => {
+
+    const [newconutry, setNewconutry] = useState('Colombia');
+
+    return (
+        <>
+            <BusquedaInput setSearchContry={setNewconutry} />
+            <hr />
+            <CountryWeather country={newconutry} />
+            
+
+        </>
+    )
 }
-
-export default App;

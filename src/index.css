@@ -1,13 +1,118 @@
-body {
-  margin: 0;
+*{
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  margin: 0;
+  padding: 23px;
+ 
 }
+
+
+.Informacion{
+  border: 1px solid grey;
+  padding:1px 29px;
+  width: 75%;
+}
+
+
+
+.Imagen-clima{
+  border: 1px solid grey;
+  padding:17px 10px;
+  margin:1px 12px
+}
+
+.container{
+  display:flex;
+  flex-direction:row;
+  justify-content: left;
+  flex-wrap: wrap;
+}
+
+.container-info{
+  display:flex;
+  flex-direction:row;
+  justify-content: left;
+  flex-wrap: nowrap
+  
+}
+.container-time-hours{
+  display:flex;
+  flex-direction:row;
+  justify-content: left;
+  flex-wrap: wrap;
+  
+ 
+}
+
+.container-info-row{
+  border: 1px solid grey;
+  padding:17px 10px;
+  margin:12px 15px 12px 0px;
+  width: 450px;
+}
+
+.container-hours-row{
+  border:2px solid silver;
+  padding:5px 5px;
+  width:193px;
+  text-align: center;
+}
+
+.img-humedad{
+  /* background: url('../src/imagenes/humedad.jpg') no-repeat center center; */
+  background: rgb(69,69,69);
+  background: linear-gradient(355deg, rgba(69,69,69,0.6) 0%, rgba(223,223,223,0.6362920168067228) 88%, rgb(122, 87, 87) 100%),url('../src/imagenes/humedad.jpg') no-repeat center center;
+  background-size: cover;
+  font-size:23px;
+  text-align:center;
+}
+
+.img-temperatura{
+  /* background: url('../src/imagenes/humedad.jpg') no-repeat center center; */
+  background: rgb(69,69,69);
+  background: linear-gradient(355deg, rgba(69,69,69,0.6) 0%, rgba(223,223,223,0.6362920168067228) 88%, rgb(122, 87, 87) 100%),url('../src/imagenes/temperatura.jpg') no-repeat center center;
+  background-size: cover;
+  color:white;
+  font-size:23px;
+  text-align:center;
+}
+
+.img-Velocidad{
+  /* background: url('../src/imagenes/humedad.jpg') no-repeat center center; */
+  background: rgb(69,69,69);
+  background: linear-gradient(355deg, rgba(69,69,69,0.6) 0%, rgba(223,223,223,0.6362920168067228) 88%, rgb(122, 87, 87) 100%),url('../src/imagenes/viento.jpg') no-repeat center center;
+  background-size: cover;
+  color:white;
+  font-size:23px;
+  text-align:center;
+}
+
+
+.img-humedad,.img-temperatura,.img-Velocidad{
+  color:white
+}
+
+input[type="text"]{
+  width:300px;
+  padding:9px 9px;
+  border:2px solid gray;
+  box-shadow:1px 1px 1px 1px silver;
+  border-radius: 3px 3px;
+  font-family: Helvetica,Arial, sans-serif;
+  font-size: 14px;
+}
+
+button{
+  padding:6px 9px;
+  margin-left: 12px;
+  font-family: Helvetica,Arial, sans-serif;
+  background-color:skyblue;
+  box-shadow:1px 1px 1px 1px silver;
+}
+
