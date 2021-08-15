@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.fd59c33a.chunk.css",
-    "main.js": "/static/js/main.abf68600.chunk.js",
-    "main.js.map": "/static/js/main.abf68600.chunk.js.map",
+    "main.css": "/static/css/main.9dedcca0.chunk.css",
+    "main.js": "/static/js/main.188987d5.chunk.js",
+    "main.js.map": "/static/js/main.188987d5.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.b9bc42e5.js",
     "runtime-main.js.map": "/static/js/runtime-main.b9bc42e5.js.map",
     "static/js/2.f77df9a0.chunk.js": "/static/js/2.f77df9a0.chunk.js",
     "static/js/2.f77df9a0.chunk.js.map": "/static/js/2.f77df9a0.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.fd59c33a.chunk.css.map": "/static/css/main.fd59c33a.chunk.css.map",
+    "static/css/main.9dedcca0.chunk.css.map": "/static/css/main.9dedcca0.chunk.css.map",
     "static/js/2.f77df9a0.chunk.js.LICENSE.txt": "/static/js/2.f77df9a0.chunk.js.LICENSE.txt",
     "static/media/index.css": "/static/media/temperatura.02b99a96.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.b9bc42e5.js",
     "static/js/2.f77df9a0.chunk.js",
-    "static/css/main.fd59c33a.chunk.css",
-    "static/js/main.abf68600.chunk.js"
+    "static/css/main.9dedcca0.chunk.css",
+    "static/js/main.188987d5.chunk.js"
   ]
 }

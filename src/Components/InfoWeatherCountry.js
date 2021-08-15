@@ -29,7 +29,7 @@ export const InfoWeatherCountry = (data) => {
                         <div className="container-info">
                             <div className="container-info-row img-humedad animate__animated animate__bounceIn"><h1>Humedad<br />{info.humidity}%</h1></div>
                             <div className="container-info-row img-temperatura animate__animated animate__bounceIn"><h1>Temperatura<br />{info.temperature}°C</h1></div>
-                            <div className="container-info-row img-Velocidad animate__animated animate__bounceIn"><h1>Velocidad del viendo<br />{info.wind_speed} m/s</h1></div>
+                            <div className="container-info-row img-Velocidad animate__animated animate__bounceIn"><h1>Velocidad del viento<br />{info.wind_speed} m/s</h1></div>
                         </div>
                         <h2>Proyeccion del clima en horas:</h2>
                         <br />
