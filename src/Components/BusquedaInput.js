@@ -16,6 +16,8 @@ export const BusquedaInput = ({setSearchContry}) => {
 
 
     return (
+        <>
+        Buscar:
         <form onSubmit={handleSubmit}>
             <input type="text"
                    value={inputValue}
@@ -23,5 +25,6 @@ export const BusquedaInput = ({setSearchContry}) => {
             />
             <button onClick={handleSubmit}>BUSCAR</button>
         </form>
+        </>
     )
 }

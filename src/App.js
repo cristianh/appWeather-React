@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React, { useState } from 'react'
 import { BusquedaInput } from './Components/BusquedaInput'
 import { CountryWeather } from './Components/CountryWeather'
 
@@ -11,10 +11,11 @@ export const App = () => {
 
     return (
         <>
-            <BusquedaInput setSearchContry={setNewconutry} />
-            <hr />
-            <CountryWeather country={newconutry} />
-            
+            <div  className="App">
+                <BusquedaInput setSearchContry={setNewconutry} />
+                <hr />
+                <CountryWeather country={newconutry} />
+            </div>
 
         </>
     )
