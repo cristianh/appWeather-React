@@ -11,6 +11,7 @@
 # production
 /stories
 /.storybook
+/build
 
 # misc
 .DS_Store
