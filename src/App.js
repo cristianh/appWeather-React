@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { BusquedaInput } from './Components/BusquedaInput'
+import { BusquedaInput } from './Components/SearchInput'
 import { CountryWeather } from './Components/CountryWeather'
 
 

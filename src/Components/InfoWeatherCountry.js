@@ -1,4 +1,5 @@
 import React from 'react'
+import { ImgWeather } from './ImgWeather'
 
 
 export const InfoWeatherCountry = (data) => {
@@ -21,7 +22,8 @@ export const InfoWeatherCountry = (data) => {
 
                         <div className="Imagen-clima">
                             {info.description}<br />
-                            <img src={info.weather_icons} width="110" height="110" />
+                            
+                            <ImgWeather key={info.icon} imgicon={info.icon} />
                         </div>
 
                         <div className="container-info">

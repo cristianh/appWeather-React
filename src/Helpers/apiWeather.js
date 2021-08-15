@@ -20,6 +20,7 @@ export const countrysWeatherStack = async (country) => {
                 description:cityweather.weather.description,
                 wind_speed: cityweather.wind_spd,
                 humidity: cityweather.rh,
+                icon:cityweather.weather.icon,
                 minutely        
             }
 
